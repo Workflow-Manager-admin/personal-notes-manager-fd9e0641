@@ -11,6 +11,16 @@ This project provides a minimal React template with a clean, modern UI and minim
 
 ## Getting Started
 
+**Configuring Backend API URL**
+
+To run your app with a custom backend API (e.g., when your backend is running at a different host/port), create a `.env` file in `notes_frontend/` with this line:
+
+```
+REACT_APP_BACKEND_URL=http://localhost:5000
+```
+
+Replace the URL with your actual backend address as needed.
+
 In the project directory, you can run:
 
 ### `npm start`
